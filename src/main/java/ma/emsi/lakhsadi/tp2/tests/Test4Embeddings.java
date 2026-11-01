@@ -1,4 +1,4 @@
-package ma.emsi.lakhsadi.tp2.tests;
+/*package ma.emsi.lakhsadi.tp2.tests;
 
 import dev.langchain4j.data.embedding.Embedding;
 import dev.langchain4j.model.embedding.EmbeddingModel;
@@ -21,7 +21,7 @@ public class Test4Embeddings {
                 .timeout(Duration.ofSeconds(30))
                 .build();
 
-        String[][] paires = {
+//        String[][] paires = {
                 {"The cat is sleeping.", "The cat is sleeping."},
                 {"The cat is sleeping.", "A kitten is resting."},
                 {"The cat is sleeping.", "I am repairing my car."},
@@ -52,4 +52,4 @@ public class Test4Embeddings {
 
         return CosineSimilarity.between(embedding1, embedding2);
     }
-}
+}*/
