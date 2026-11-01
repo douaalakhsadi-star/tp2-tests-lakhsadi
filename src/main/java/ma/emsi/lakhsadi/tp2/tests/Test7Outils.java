@@ -15,6 +15,7 @@ public class Test7Outils {
                 .apiKey(System.getenv("GEMINI_KEY"))
                 .modelName("gemini-3.5-flash-lite")
                 .temperature(0.3)
+                .logRequestsAndResponses(true)
                 .build();
 
         AssistantMeteo assistant =
